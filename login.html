@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="login.js" defer type="module"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Firebase Authentication</h1>
+  </header>
+  <section>
+    <div class="login-form">
+      <form>
+        <div class="mb-3 row">
+          <label for="staticEmail" class="name">Username</label>
+          <div class="col-sm-10">
+            <i class="fa-solid fa-user"><input type="text" readonly class="form-control-plaintext" id="staticEmail" placeholder="email@gmail.com"></i>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <label for="inputPassword" class="name">Password</label>
+          <div class="col-sm-10">
+            <i class="fa-solid fa-lock"><input type="password" class="form-control" id="inputPassword" placeholder="Password"></i>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-sm-10">
+            <button id="login-btn">Login</button>
+          </div>
+        </div>
+        <p>
+          don't have an account?<a href="#">Create one</a>
+        </p>
+        <div class="mb-3 row">
+          <div class="col-sm-10">
+            <button id="google-login-btn"><i class="fa-brands fa-google"></i> Login with Google</button>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-sm-10">
+            <button id="facebook-login-btn"><i class="fa-brands fa-facebook"></i> Login with Facebook</button>
+          </div>
+        </div>
+        <div class="mb-3 row">
+          <div class="col-sm-10">
+            <button id="github-login-btn"><i class="fa-brands fa-github"></i>  Login with Github</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="image">
+      <img src="girl.jpg" alt="">
+    </div>
+  </section>
+  <footer>
+    <p>Made with ❤️ by Apurva Shimpi</p>
+  </footer>
+</body>
+
+</html>
